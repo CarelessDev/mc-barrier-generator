@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Generate Barrier",
+        "name": "Barrier Generator",
+        "uuid": "6809f5ea-6f3c-40c8-851a-42956a3a462d",
+        "version": [
+            1,
+            0,
+            2
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            30
+        ]
+    },
+    "modules": [
+        {
+            "description": "Generate Barrier",
+            "type": "data",
+            "uuid": "6809f5eb-6f3c-40c8-851a-42956a3a462d",
+            "version": [
+                1,
+                0,
+                2
+            ]
+        }
+    ]
+}
