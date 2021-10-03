@@ -1,0 +1,12 @@
+fill ~-255 0 ~-255 ~-255 255 ~-21 barrier
+fill ~255 0 ~-255 ~255 255 ~-21 barrier
+fill ~-255 0 ~-255 ~-21 255 ~-255 barrier
+fill ~-255 0 ~255 ~-21 255 ~255 barrier
+fill ~-255 0 ~-21 ~-255 255 ~213 barrier
+fill ~255 0 ~-21 ~255 255 ~213 barrier
+fill ~-21 0 ~-255 ~213 255 ~-255 barrier
+fill ~-21 0 ~255 ~213 255 ~255 barrier
+fill ~-255 0 ~213 ~-255 255 ~255 barrier
+fill ~255 0 ~213 ~255 255 ~255 barrier
+fill ~213 0 ~-255 ~255 255 ~-255 barrier
+fill ~213 0 ~255 ~255 255 ~255 barrier

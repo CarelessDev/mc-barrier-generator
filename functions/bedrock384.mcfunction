@@ -1,0 +1,16 @@
+fill ~-192 0 ~-192 ~-192 255 ~-75 bedrock
+fill ~192 0 ~-192 ~192 255 ~-75 bedrock
+fill ~-192 0 ~-192 ~-75 255 ~-192 bedrock
+fill ~-192 0 ~192 ~-75 255 ~192 bedrock
+fill ~-192 0 ~-75 ~-192 255 ~42 bedrock
+fill ~192 0 ~-75 ~192 255 ~42 bedrock
+fill ~-75 0 ~-192 ~42 255 ~-192 bedrock
+fill ~-75 0 ~192 ~42 255 ~192 bedrock
+fill ~-192 0 ~42 ~-192 255 ~159 bedrock
+fill ~192 0 ~42 ~192 255 ~159 bedrock
+fill ~42 0 ~-192 ~159 255 ~-192 bedrock
+fill ~42 0 ~192 ~159 255 ~192 bedrock
+fill ~-192 0 ~159 ~-192 255 ~192 bedrock
+fill ~192 0 ~159 ~192 255 ~192 bedrock
+fill ~159 0 ~-192 ~192 255 ~-192 bedrock
+fill ~159 0 ~192 ~192 255 ~192 bedrock

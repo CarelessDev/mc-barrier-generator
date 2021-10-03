@@ -1,0 +1,12 @@
+fill ~-254 0 ~-254 ~-254 255 ~-20 bedrock
+fill ~254 0 ~-254 ~254 255 ~-20 bedrock
+fill ~-254 0 ~-254 ~-20 255 ~-254 bedrock
+fill ~-254 0 ~254 ~-20 255 ~254 bedrock
+fill ~-254 0 ~-20 ~-254 255 ~214 bedrock
+fill ~254 0 ~-20 ~254 255 ~214 bedrock
+fill ~-20 0 ~-254 ~214 255 ~-254 bedrock
+fill ~-20 0 ~254 ~214 255 ~254 bedrock
+fill ~-254 0 ~214 ~-254 255 ~254 bedrock
+fill ~254 0 ~214 ~254 255 ~254 bedrock
+fill ~214 0 ~-254 ~254 255 ~-254 bedrock
+fill ~214 0 ~254 ~254 255 ~254 bedrock

@@ -1,0 +1,12 @@
+fill ~-256 0 ~-256 ~-256 255 ~-22 bedrock
+fill ~256 0 ~-256 ~256 255 ~-22 bedrock
+fill ~-256 0 ~-256 ~-22 255 ~-256 bedrock
+fill ~-256 0 ~256 ~-22 255 ~256 bedrock
+fill ~-256 0 ~-22 ~-256 255 ~212 bedrock
+fill ~256 0 ~-22 ~256 255 ~212 bedrock
+fill ~-22 0 ~-256 ~212 255 ~-256 bedrock
+fill ~-22 0 ~256 ~212 255 ~256 bedrock
+fill ~-256 0 ~212 ~-256 255 ~256 bedrock
+fill ~256 0 ~212 ~256 255 ~256 bedrock
+fill ~212 0 ~-256 ~256 255 ~-256 bedrock
+fill ~212 0 ~256 ~256 255 ~256 bedrock
