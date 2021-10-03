@@ -50,21 +50,21 @@ async function generate(size, block = "barrier", maxheight = 255, suffix = "") {
   }
 
   for (let i = 0; i < bp.length - 1; i++) {
-    filecontent += `fill ~${-size} 0 ~${bp[i]} ~${-size} 255 ~${
+    filecontent += `fill ~${-size} 0 ~${bp[i]} ~${-size} ${maxheight} ~${
       bp[i + 1]
     } ${block}\n`;
 
-    filecontent += `fill ~${size} 0 ~${bp[i]} ~${size} 255 ~${
+    filecontent += `fill ~${size} 0 ~${bp[i]} ~${size} ${maxheight} ~${
       bp[i + 1]
     } ${block}\n`;
 
     filecontent += `fill ~${bp[i]} 0 ~${-size} ~${
       bp[i + 1]
-    } 255 ~${-size} ${block}\n`;
+    } ${maxheight} ~${-size} ${block}\n`;
 
     filecontent += `fill ~${bp[i]} 0 ~${size} ~${
       bp[i + 1]
-    } 255 ~${size} ${block}\n`;
+    } ${maxheight} ~${size} ${block}\n`;
   }
 
   const filename = `./functions/${block}${suffix}${size * 2}.mcfunction`;
