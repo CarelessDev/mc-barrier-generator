@@ -1,0 +1,12 @@
+fill ~-192 0 ~-192 ~-192 255 ~-36 barrier
+fill ~192 0 ~-192 ~192 255 ~-36 barrier
+fill ~-192 0 ~-192 ~-36 255 ~-192 barrier
+fill ~-192 0 ~192 ~-36 255 ~192 barrier
+fill ~-192 0 ~-36 ~-192 255 ~120 barrier
+fill ~192 0 ~-36 ~192 255 ~120 barrier
+fill ~-36 0 ~-192 ~120 255 ~-192 barrier
+fill ~-36 0 ~192 ~120 255 ~192 barrier
+fill ~-192 0 ~120 ~-192 255 ~192 barrier
+fill ~192 0 ~120 ~192 255 ~192 barrier
+fill ~120 0 ~-192 ~192 255 ~-192 barrier
+fill ~120 0 ~192 ~192 255 ~192 barrier

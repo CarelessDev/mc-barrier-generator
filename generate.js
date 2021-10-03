@@ -1,8 +1,21 @@
-const sizes = [64, 128, 256, 512];
+// * Size of Square
+let sizes = [];
+
+for (let i = 1; i <= 20; i++) {
+    sizes.push(Math.pow(2, i));
+    if (i >= 7)
+        sizes.push(Math.pow(2, i) + Math.pow(2, i - 1));
+}
+
+console.log(sizes);
 
 const fs = require("fs").promises;
 
-function generate(size) {
+async function generate(size) {
+
+    // * Convert to radius
+    size /= 2;
+
     let filecontent = "";
 
     const bps = Math.floor(30000 / size);
@@ -16,6 +29,13 @@ function generate(size) {
     }
     bp.push(size);
 
+    const commands = 4 * (bp.length - 1);
+
+    if (commands > 10000) {
+        console.log(`Skipped barrier${size * 2} because it has ${commands} commands which exceeds limits of 10000`);
+        return;
+    }
+
     for (let i = 0; i < bp.length - 1; i++) {
         filecontent += `fill ~${-size} 0 ~${bp[i]} ~${-size} 255 ~${bp[i + 1]} barrier\n`;
         filecontent += `fill ~${size} 0 ~${bp[i]} ~${size} 255 ~${bp[i + 1]} barrier\n`;
@@ -23,9 +43,14 @@ function generate(size) {
         filecontent += `fill ~${bp[i]} 0 ~${size} ~${bp[i + 1]} 255 ~${size} barrier\n`;
     }
 
-    fs.writeFile(`./functions/barrier${size}.mcfunction`, filecontent);
+    const filename = `./functions/barrier${size * 2}.mcfunction`;
+
+    console.log(`Writing ${filename} with ${commands} commands`);
+    await fs.writeFile(filename, filecontent);
 }
 
-for (const size of sizes) {
-    generate(size);
-}
+(async () => {
+    for (const size of sizes) {
+        await generate(size);
+    }
+})();
