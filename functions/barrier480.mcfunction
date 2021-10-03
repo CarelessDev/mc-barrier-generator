@@ -1,0 +1,16 @@
+fill ~-240 0 ~-240 ~-240 255 ~-115 barrier
+fill ~240 0 ~-240 ~240 255 ~-115 barrier
+fill ~-240 0 ~-240 ~-115 255 ~-240 barrier
+fill ~-240 0 ~240 ~-115 255 ~240 barrier
+fill ~-240 0 ~-115 ~-240 255 ~10 barrier
+fill ~240 0 ~-115 ~240 255 ~10 barrier
+fill ~-115 0 ~-240 ~10 255 ~-240 barrier
+fill ~-115 0 ~240 ~10 255 ~240 barrier
+fill ~-240 0 ~10 ~-240 255 ~135 barrier
+fill ~240 0 ~10 ~240 255 ~135 barrier
+fill ~10 0 ~-240 ~135 255 ~-240 barrier
+fill ~10 0 ~240 ~135 255 ~240 barrier
+fill ~-240 0 ~135 ~-240 255 ~240 barrier
+fill ~240 0 ~135 ~240 255 ~240 barrier
+fill ~135 0 ~-240 ~240 255 ~-240 barrier
+fill ~135 0 ~240 ~240 255 ~240 barrier

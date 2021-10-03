@@ -1,11 +1,21 @@
 // * Size of Square
 let sizes = [];
 
-for (let i = 1; i <= 20; i++) {
+// * By Test Result, above 512, the function starts to fail
+for (let i = 1; i <= 9; i++) {
     sizes.push(Math.pow(2, i));
-    if (i >= 7)
-        sizes.push(Math.pow(2, i) + Math.pow(2, i - 1));
+    if (i >= 2) {
+        let j = i;
+        let currsize = Math.pow(2, j);
+        while (j > 1) {
+            j--;
+            currsize += Math.pow(2, j);
+            sizes.push(currsize);
+        }
+    }
 }
+
+sizes = sizes.filter((s) => s <= 512);
 
 console.log(sizes);
 
